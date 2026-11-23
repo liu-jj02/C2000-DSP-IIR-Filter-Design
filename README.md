@@ -1,0 +1,7 @@
+- 项目目标：IIR 结构、Butterworth / Chebyshev、SOS、FIR/IIR 对比；
+- 环境：MATLAB R2025b + Signal Processing Toolbox；
+- 统一指标：`fs=1000`、`80/120 Hz`、`0.5 dB`、`60 dB`；
+- 实测结果：FIR 60 阶 / IIR 19 阶、群延迟差异；
+- 每个脚本的作用和运行顺序；
+- SOS 的整体增益 `g` 必须参与 `sosfilt`；
+- `filtfilt` 仅用于离线分析，不能代表实时因果滤波。
